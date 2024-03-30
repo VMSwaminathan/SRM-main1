@@ -52,7 +52,7 @@ else:
         with open(file,"rb") as f:
             data = f.read()
         return base64.b64encode(data).decode()
-    img = get_img_as_base64("C:/Users/user/Downloads/SRM-main/SRM-main/flight.jpg")
+    img = get_img_as_base64("flight.jpg")
     page_bg_img = f"""
     <style>
     [data-testid="stAppViewContainer"] > .main {{
